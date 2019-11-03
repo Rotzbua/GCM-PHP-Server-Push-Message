@@ -12,9 +12,9 @@ http://stackoverflow.com/questions/11242743/gcm-with-php-google-cloud-messaging
 Example usage
 -----------------------
 ```php
-$apiKey = "YOUR GOOGLE API SERVER KEY";
+$apiKey = 'YOUR GOOGLE API SERVER KEY';
 $devices = array('YOUR REGISTERED DEVICE ID');
-$message = "The message to send";
+$message = 'The message to send';
 
 $gcpm = new GCMPushMessage($apiKey);
 $gcpm->setDevices($devices);
